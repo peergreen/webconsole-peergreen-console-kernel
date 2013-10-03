@@ -89,7 +89,6 @@ public class DevelopmentConsoleFactory {
         if (domains == null || domains.length == 0) {
             LOGGER.error("Please define at least one domain for ''{0}''.", properties.get(Constants.CONSOLE_NAME));
         } else {
-            properties.put(Constants.ENABLE_SECURITY, ((String) properties.get("instance.name")).contains(Constants.PRODUCTION_MODE_CONSOLE_PID));
             // Create an UI provider for the console UI
             UIProvider uiProvider = uiProviderFactory.createUIProvider(properties);
             createNotifierService(console, (String) properties.get("instance.name"));
