@@ -10,14 +10,14 @@
   <groupId>com.peergreen.webconsole</groupId>
   <artifactId>peergreen-console-kernel</artifactId>
   <name>Peergreen Console Kernel</name>
-  <version>1.0.0-M1</version>
+  <version>1.0.0-M2-SNAPSHOT</version>
   <packaging>bundle</packaging>
 
   <scm>
     <connection>scm:git:https://forge.peergreen.com/git/git/webconsole/peergreen-console-kernel.git</connection>
     <developerConnection>scm:git:https://forge.peergreen.com/git/git/webconsole/peergreen-console-kernel.git</developerConnection>
     <url>https://forge.peergreen.com/git/summary/?r=webconsole/peergreen-console-kernel.git</url>
-    <tag>PEERGREEN_CONSOLE_KERNEL_1_0_0_M1</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <dependencies>
