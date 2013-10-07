@@ -35,7 +35,7 @@
     <dependency>
       <groupId>com.peergreen.webconsole</groupId>
       <artifactId>web-console-core</artifactId>
-      <version>1.0.0-SNAPSHOT</version>
+      <version>1.0.0-M1</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
@@ -73,13 +73,13 @@
     <dependency>
       <groupId>com.peergreen.webconsole.security</groupId>
       <artifactId>security-simple</artifactId>
-      <version>1.0.0-SNAPSHOT</version>
+      <version>1.0.0-M1</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>com.peergreen.webconsole</groupId>
       <artifactId>vaadin-7.1.6</artifactId>
-      <version>1.0.0-SNAPSHOT</version>
+      <version>1.0.0-M1</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
@@ -98,7 +98,7 @@
       <groupId>com.vaadin.external.slf4j</groupId>
       <artifactId>vaadin-slf4j-jdk14</artifactId>
       <version>1.6.1</version>
-      <scope>provided</scope>
+      <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>com.vaadin</groupId>
@@ -113,7 +113,7 @@
       <dependency>
         <groupId>com.peergreen.webconsole</groupId>
         <artifactId>web-console-bom</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0-M1</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
